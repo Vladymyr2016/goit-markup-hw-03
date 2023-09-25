@@ -170,6 +170,9 @@ img {
     border: none;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    cursor: pointer;
 }
 
 .solution-service-btn:hover,
