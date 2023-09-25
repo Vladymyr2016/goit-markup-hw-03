@@ -16,7 +16,7 @@ body {
 
 .conteiner {
     width: 100%;
-    max-width: 1158px;
+    max-width: 1188px;
     margin: 0 auto;
     outline: 2px solid red;
     padding-left: 15px;
@@ -48,6 +48,7 @@ img {
     display: block;
     display: flex;
     align-items: center;
+    width: 1158px;
 }
 
 .header-navigation {
@@ -348,8 +349,10 @@ img {
 
 .footer {
     background: #2E2F42;
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+}
+
+.footer-conteiner {
+    padding: 100px 0;
 }
 
 .footer-title {
