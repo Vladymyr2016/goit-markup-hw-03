@@ -217,6 +217,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    flex-basis: calc((100% - 72px) / 4);
 
 }
 
@@ -224,7 +225,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    flex-basis: calc((100% - 72px) / 4);
 
 }
 
