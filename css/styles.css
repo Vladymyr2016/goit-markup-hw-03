@@ -305,7 +305,9 @@ img {
     background-color: #fff;
 }
 
-.portfolio-conteiner {}
+.portfolio-conteiner {
+    padding: 120px 0 120px 0;
+}
 
 .portfolio-title {
     color: #2E2F42;
@@ -322,15 +324,23 @@ img {
 .portfolio-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 48px;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-menu-conteiner {
+    width: calc((100% - 48px) / 3);
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-menu-list {
     border-bottom: 1px solid #E7E9FC;
-    width: 361px;
     margin-bottom: 48px;
     margin-right: 24px;
-
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-menu-image {
