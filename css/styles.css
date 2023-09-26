@@ -142,7 +142,7 @@ img {
 
 .solution-conteiner {
     background-color: #2e2f42;
-    padding: 240px 346px 240px 346px;
+    padding: 188px 0;
 }
 
 .solution-title {
@@ -207,7 +207,6 @@ img {
 .subject-menu {
     display: flex;
     gap: 24px;
-    padding: 120px 156px;
 }
 
 .subject-menu-list {}
