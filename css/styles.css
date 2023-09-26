@@ -187,6 +187,7 @@ img {
 .subject {
     padding-top: 120px;
     padding-bottom: 120px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .visually-hidden {
@@ -206,7 +207,6 @@ img {
 .subject-menu {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .subject-menu-list {}
