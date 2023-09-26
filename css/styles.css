@@ -274,7 +274,6 @@ img {
 .team-title-menu-images {
     background-color: #FFF;
     margin-bottom: 32px;
-
 }
 
 .team-title-menu-name {
@@ -297,7 +296,6 @@ img {
     letter-spacing: 0.02em;
     padding-bottom: 32px;
     text-align: center;
-
 }
 
 
@@ -334,7 +332,6 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-menu-list {
@@ -342,6 +339,7 @@ img {
     margin-bottom: 48px;
     margin-right: 24px;
     list-style-type: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-menu-image {
@@ -364,7 +362,6 @@ img {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-
 }
 
 /** ====================*/
