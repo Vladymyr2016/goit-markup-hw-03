@@ -379,9 +379,11 @@ img {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
     width: 44px;
+    margin-bottom: 16px;
 }
 
 .footer-title-span {
@@ -401,7 +403,7 @@ img {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    margin-top: 8px;
+    max-width: 264px;
 }
 
 /** ====================*/
