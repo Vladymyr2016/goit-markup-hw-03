@@ -204,6 +204,7 @@ img {
 .subject-menu {
     display: flex;
     gap: 24px;
+
 }
 
 .subject-menu-list {}
@@ -215,7 +216,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 
 }
 
