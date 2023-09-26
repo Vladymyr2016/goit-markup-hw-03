@@ -316,9 +316,7 @@ img {
 }
 
 .portfolio-menu {
-    list-style: none;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -329,13 +327,13 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-menu-list {
     border-bottom: 1px solid #E7E9FC;
     margin-bottom: 48px;
     margin-right: 24px;
-    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-menu-image {
