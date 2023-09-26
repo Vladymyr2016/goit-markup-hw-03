@@ -136,7 +136,9 @@ img {
 
 /** ========== button ==========*/
 
-.solution {}
+.solution {
+    padding: 188px 0;
+}
 
 .solution-container {
     background-color: #2e2f42;
