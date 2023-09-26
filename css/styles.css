@@ -334,10 +334,11 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    list-style-type: none;
 }
 
 .portfolio-menu-list {
-
+    border-bottom: 1px solid #E7E9FC;
     margin-bottom: 48px;
     margin-right: 24px;
 }
