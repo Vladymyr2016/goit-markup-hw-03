@@ -33,7 +33,7 @@ img {
 }
 
 
-.conteiner {
+.container {
     width: 100%;
     max-width: 1158px;
     margin: 0 auto;
@@ -43,7 +43,7 @@ img {
 
 
 
-.header-conteiner {
+.header-container {
     display: block;
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@ img {
 
 .solution {}
 
-.solution-conteiner {
+.solution-container {
     background-color: #2e2f42;
     padding: 188px 0;
 }
@@ -234,7 +234,7 @@ img {
     padding: 120px 0;
 }
 
-.team-conteiner {
+.team-container {
     background-color: #F4F4FD;
 }
 
@@ -255,7 +255,7 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-.team-menu-conteiner {
+.team-menu-container {
     padding: 32px 0;
 }
 
@@ -303,7 +303,7 @@ img {
     padding-bottom: 120px;
 }
 
-.portfolio-conteiner {}
+.portfolio-container {}
 
 .portfolio-title {
     color: #2E2F42;
@@ -324,7 +324,7 @@ img {
     row-gap: 48px;
 }
 
-.portfolio-menu-conteiner {
+.portfolio-menu-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -368,7 +368,7 @@ img {
     background: #2E2F42;
 }
 
-.footer-conteiner {
+.footer-container {
     padding: 100px 0;
 }
 
