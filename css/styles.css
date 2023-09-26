@@ -4,24 +4,6 @@ body {
     background-color: #FFFFFF;
 }
 
-
-
-/** ========== header ==========*/
-
-.header {
-    background-color: #fff;
-    border-bottom: 1px solid #E7E9FC;
-}
-
-
-.conteiner {
-    width: 100%;
-    max-width: 1188px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 p,
 h1,
 h2,
@@ -43,11 +25,28 @@ img {
     display: block;
 }
 
+/** ========== header ==========*/
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+
+.conteiner {
+    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
 .header-conteiner {
     display: block;
     display: flex;
     align-items: center;
-    width: 1158px;
 }
 
 .header-navigation {
@@ -145,16 +144,15 @@ img {
 }
 
 .solution-title {
-    color: #FFF;
-    background-color: #2E2F42;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 48px;
-    margin: o, auto;
     max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .solution-service-btn {
