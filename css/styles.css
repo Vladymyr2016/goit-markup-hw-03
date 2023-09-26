@@ -208,9 +208,7 @@ img {
     gap: 24px;
 }
 
-.subject-menu-list {
-    width calc((100% - 3 * 24px) / 4);
-}
+.subject-menu-list {}
 
 .subject-menu-caption {
     color: #2E2F42;
@@ -225,6 +223,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width calc((100% - 3 * 24px) / 4);
 
 }
 
