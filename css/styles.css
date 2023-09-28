@@ -19,6 +19,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style-type: none;
 }
 
 img {
@@ -53,9 +54,6 @@ img {
 
 .header-navigation {
     display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center;
 }
 
@@ -68,13 +66,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
-    margin-left: auto;
     margin-right: 76px;
-    padding: 24px 76px 24px 152px;
-
 }
 
 .header-logo span {
@@ -110,6 +102,7 @@ img {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-menu {
@@ -118,10 +111,7 @@ img {
     gap: 40px;
 }
 
-.address-menu-item {
-    margin-right: auto;
-    padding: 15px;
-}
+.address-menu-item {}
 
 .address-menu-link {
     color: #434455;
@@ -140,12 +130,11 @@ img {
 
 .solution {
     padding: 188px 0;
-}
-
-.solution-container {
     background-color: #2e2f42;
     padding: 188px 0;
 }
+
+.solution-container {}
 
 .solution-title {
     color: #FFFFFF;
@@ -235,13 +224,12 @@ img {
 /** ========== team ==========*/
 
 .team {
+    background-color: #F4F4FD;
     text-align: center;
     padding: 120px 0;
 }
 
-.team-container {
-    background-color: #F4F4FD;
-}
+.team-container {}
 
 .team-title {
     color: #2E2F42;
@@ -273,7 +261,6 @@ img {
 
 .team-title-menu-images {
     background-color: #FFF;
-    margin-bottom: 32px;
 }
 
 .team-title-menu-name {
@@ -307,7 +294,9 @@ img {
     padding-bottom: 120px;
 }
 
-.portfolio-container {}
+.portfolio-container {
+    border-bottom: 1px solid #E7E9FC;
+}
 
 .portfolio-title {
     color: #2E2F42;
@@ -317,7 +306,6 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
     padding-top: 120px;
 }
 
@@ -335,13 +323,10 @@ img {
 }
 
 .portfolio-menu-list {
-    border-bottom: 1px solid #E7E9FC;
     list-style-type: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-menu-image {
-    padding-bottom: 32px;
     max-width: 360px;
     height: 300px;
 }
@@ -368,12 +353,9 @@ img {
 
 .footer {
     background: #2E2F42;
-    padding: 100px 0;
 }
 
-.footer-container {
-    padding: 100px 0;
-}
+.footer-container {}
 
 .footer-title {
     color: #4D5AE5;
@@ -385,7 +367,6 @@ img {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    width: 44px;
     margin-bottom: 16px;
 }
 
