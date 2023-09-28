@@ -307,6 +307,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .portfolio-menu {
@@ -353,6 +354,7 @@ img {
 
 .footer {
     background: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-container {}
